@@ -86,4 +86,5 @@ jobs:
           script: |
             cd /var/www/html/laravel-action
             git checkout -f 
+            git stash
             git pull
